@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Harry Tran">
-    <meta name="Description" content="HTML Basic Tutorial">
-    <title>My First Web Page</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Harry Tran" />
+        <meta name="Description" content="HTML Basic Tutorial" />
+        <title>About HTML</title>
+        <link rel="stylesheet" href="main.css" type="text/css" />
+    </head>
 
-<body>
-    <h1>Hello World!</h1> <!-- Largest Title -->
+    <body>
+        <h1>Hello World!</h1>
+        <!-- Largest Title -->
 
-    <h2>I am learning HTML!</h2> 
-    <p>This is My First Web Page.</p>
-
-    <hr>
-
-    <h3>What is HTML?</h3>
-    <p>HTML is...
-        <br>&nbsp;&nbsp;&nbsp;(HyperText Markup Language) is the most basic building block of the Web. It 
-        &nbsp;&nbsp;&nbsp;defines the meaning and structure of web content. Other technologies besides 
-        &nbsp;&nbsp;&nbsp;HTML are generally used to describe a web page's appearance/presentation
-        &nbsp;&nbsp;&nbsp;(CSS) or functionality/behavior (JavaScript)
-    </p>
-    <hr>
-    <h3>What Resources Do I Use?</h3>
-    <p>I use resources from...
-        <br> <abbr title="Mozilla Developer Network">MDN</abbr>
-    </p>
-    <hr>
-    &lt;&lt;&lt; &copy; Harry Tran &gt;&gt;&gt;
-</body>
-
+        <h2>I am learning HTML!</h2>
+        <p>This is My First Web Page.</p>
+        <hr />
+        <nav>
+            <ul>
+                <li><a href="#html">HTML definition</a></li>
+                <li><a href="#resource">Resources</a></li>
+                <li><a href="#use">Use of HTML</a></li>
+            </ul>
+        </nav>
+        <hr />
+        <section id="html">
+            <img src="Image/HTML.png" alt="HTML5 Logo" title="HTML5 Logo">
+            <h3>What is HTML?</h3>
+            <p>
+                HTML is... <br />
+                &nbsp;&nbsp;&nbsp;(HyperText Markup Language) is the most basic building block of the Web. It &nbsp;&nbsp;&nbsp;defines the meaning and structure of web content. Other technologies besides &nbsp;&nbsp;&nbsp;HTML are
+                generally used to describe a web page's appearance/presentation &nbsp;&nbsp;&nbsp;(CSS) or functionality/behavior (JavaScript)
+            </p>
+        </section>
+        <hr />
+        <section id="resource">
+            <h3>What Resources Do I Use?</h3>
+            <p>I use resources from..</p>
+            <p>
+                <br />
+                <abbr title="Mozilla Developer Network"> <a href="https://developer.mozilla.org/en-US/">MDN</a></abbr>
+            </p>
+        </section>
+        <hr />
+        <section id="use">
+            <h3>What is HTML used for?</h3>
+            <p>
+                HTML is used for...
+            </p>
+            <ol>
+                <li>Web Development</li>
+                <li>Describe a Website</li>
+                <li>publish online documents with headings, text, tables, lists, photos, etc. Retrieve online information via hypertext links, at the click of a button.</li>
+            </ol>
+            <hr />
+        </section>
+        &lt;&lt;&lt; &copy; <a href="about.html">Harry Tran</a>&gt;&gt;&gt;
+    </body>
 </html>
